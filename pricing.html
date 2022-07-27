@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSV tuition classes </title>
+    <style>
+       * {
+      text-transform: capitalize;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:yellowgreen ;">
+    <!-- our codes starts from here -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"> Pricing in JSV Tuition classes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">contact us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/pricing.html">Pricing</a>
+              </li>
+             
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- pricing starts from here  -->
+
+
+      <main class="mt-5">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"> &#8377 0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>2 Days Demo Classes</li>
+                  <li>In Online / Classroom</li>
+                  <li>contact support</li>
+                  <li>Help access Lifetime</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="pricing1" onclick="signup()" >Sign up for free( LIMITED PERIOD OFFER ) </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"> &#8377 300<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li> online /offline class </li>
+                  <li>Plus Recorded Videos</li>
+                  <li>Priority Whatsapp Support</li>
+                  <li>Help access in only 10th standard </li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="pricing1" onclick="signup()" >SELECT THIS FOR A MONTH </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"> &#8377 3600<small class="text-muted fw-light">/yr</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li> Online / Offline Class</li>
+                  <li>Priority Whatsapp Support</li>
+                  <li>Lifetime Access  </li>
+                  <li>Doubt Solving online / offline </li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="pricing1" onclick="signup()" >SELECT THIS FOR A YEAR </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- CHECKOUT STARTS FROM here -->
+
+        <div class="container " style="margin-top:-40px;">
+          <main>
+            <div class="py-5 text-center">
+              <h2>YES ! PLEASE FILL THIS FORM </h2>
+              <p class="lead">please do continue </p>
+            </div>
+        
+            <div class="row g-5"> 
+              <div class="col-md-12 col-lg-12 order-md-last">
+                
+              <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Billing address</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required >
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <label for="lastName" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="username" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                      <div class="invalid-feedback">
+                          Your username is required.
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                      <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                      <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                      <div class="invalid-feedback">
+                        Please enter your shipping address.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    </div>
+        
+                    <div class="col-md-5">
+                      <label for="country" class="form-label">Country</label>
+                      <select class="form-select" id="country" required>
+                        <option value="">Choose...</option>
+                        <option>United States</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid country.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                      <label for="state" class="form-label">State</label>
+                      <select class="form-select" id="state" required>
+                        <option value="">Choose...</option>
+                        <option>California</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="zip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Zip code required.
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="same-address">
+                    <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+                  </div>
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Save this information for next time</label>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <h4 class="mb-3">Payment</h4>
+        
+                  <div class="my-3">
+                    <div class="form-check">
+                      <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                      <label class="form-check-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="form-check">
+                      <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="form-check">
+                      <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="paypal">PayPal</label>
+                    </div>
+                  </div>
+        
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-name" class="form-label">Name on card</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                      <small class="text-muted">Full name as displayed on card</small>
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="cc-number" class="form-label">Credit card number</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Credit card number is required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-expiration" class="form-label">Expiration</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Expiration date required
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="cc-cvv" class="form-label">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4">
+        
+                  <button class="w-100 btn btn-primary btn-lg" type="submit" onclick="checkout()">Continue to checkout</button>
+                </form>
+              </div>
+            </div>
+          </main>
+        
+         
+        </div>
+        <script>
+          function signup(){
+          let a =  alert('this is added on your cart fill the form below ')
+          
+          }
+          function checkout(){
+         var a =   alert('This Is Added On Your Cart Thankyou  Your Class Starting Soon We Will Message You And Give All Information Related Class And Timing ')
+
+            }
+          
+        
+
+            
+
+        </script>
+        
+            <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+              <script src="form-validation.js"></script>
+
+
+              <footer style="background-color: black ; color:whitesmoke;text-align:center; margin-top: 30rem; ">
+                <p>Created by| vivek agrahari</p>
+                <p>Copyright © 2017 to 2022 All Rights Reserved.</p>
+                </footer>
+
+</body>
+</html>
